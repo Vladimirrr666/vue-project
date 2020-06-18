@@ -18,6 +18,6 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
+### css 尺寸
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+根据目前的开发情况，psd 多为 1080 的尺寸， postcss.config.js 文件内已经配置好 remUnit，编写 css 代码时，尺寸使用 psd 文件量取的值即可
