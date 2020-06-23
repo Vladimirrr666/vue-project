@@ -1,7 +1,7 @@
 module.exports = {
-  publicPath: "/vue-project/",
-  assetsDir: "static",
-  outputDir: "/vue-project/",
+  publicPath: "/vue-project/", //项目路由
+  assetsDir: "static", // 静态资源文件夹
+  outputDir: "/vue-project/", //打包生成文件夹名
   devServer: {
     open: true,
     proxy: {
